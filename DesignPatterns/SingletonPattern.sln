@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{48750E3B-EDFC-4371-9C0D-04B6BD0E60C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{48750E3B-EDFC-4371-9C0D-04B6BD0E60C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclePrototypePattern", "VehiclePrototypePattern\VehiclePrototypePattern.csproj", "{9C80D1C2-1687-4BA6-A600-398FC82BEAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclePrototypePattern", "VehiclePrototypePattern\VehiclePrototypePattern.csproj", "{9C80D1C2-1687-4BA6-A600-398FC82BEAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioApplicationPlayerAbstract", "AudioApplicationPlayerAbstract\AudioApplicationPlayerAbstract.csproj", "{813184BA-DD15-4431-8D76-3773E1DA9E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentFactoryMethodPattern", "GarmentFactoryMethodPattern\GarmentFactoryMethodPattern.csproj", "{69858B70-FFD5-47CC-824B-E84B5D696F67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9C80D1C2-1687-4BA6-A600-398FC82BEAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C80D1C2-1687-4BA6-A600-398FC82BEAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C80D1C2-1687-4BA6-A600-398FC82BEAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813184BA-DD15-4431-8D76-3773E1DA9E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813184BA-DD15-4431-8D76-3773E1DA9E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813184BA-DD15-4431-8D76-3773E1DA9E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813184BA-DD15-4431-8D76-3773E1DA9E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69858B70-FFD5-47CC-824B-E84B5D696F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69858B70-FFD5-47CC-824B-E84B5D696F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69858B70-FFD5-47CC-824B-E84B5D696F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69858B70-FFD5-47CC-824B-E84B5D696F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
