@@ -10,7 +10,7 @@ namespace AdapterPattern
     {
         public void DisplayImage()
         {
-            Console.WriteLine($"Displaying JPEG image");
+            Console.WriteLine("Displaying JPEG image");
         }
     }
 }

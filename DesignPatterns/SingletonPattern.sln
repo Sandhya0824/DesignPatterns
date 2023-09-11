@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentFactoryMethodPattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{A8439A2A-376F-4831-8553-47E906FF664D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{82E1BAEF-8E16-463A-88BD-6360BC7E2A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{6507C539-C513-4307-8524-530FB8D4AE01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A8439A2A-376F-4831-8553-47E906FF664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8439A2A-376F-4831-8553-47E906FF664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8439A2A-376F-4831-8553-47E906FF664D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E1BAEF-8E16-463A-88BD-6360BC7E2A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E1BAEF-8E16-463A-88BD-6360BC7E2A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E1BAEF-8E16-463A-88BD-6360BC7E2A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E1BAEF-8E16-463A-88BD-6360BC7E2A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6507C539-C513-4307-8524-530FB8D4AE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6507C539-C513-4307-8524-530FB8D4AE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6507C539-C513-4307-8524-530FB8D4AE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6507C539-C513-4307-8524-530FB8D4AE01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
