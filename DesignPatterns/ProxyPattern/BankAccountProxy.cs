@@ -8,36 +8,35 @@ namespace ProxyPattern
 {
     public class BankAccountProxy : IBankAccount
     {
-        private RealBankAccount _realAccount;
-        private decimal _initialBalance;
+        private IBankAccount _account;
 
-        public BankAccountProxy(decimal initialBalance)
+        public BankAccountProxy(IBankAccount bankAccount)
         {
-            _initialBalance = initialBalance;
+            _account = bankAccount;
         }
 
-        private RealBankAccount GetRealAccount()
+        /*private IBankAccount GetRealAccount()
         {
-            if (_realAccount == null)
+            if (_account == null)
             {
-                _realAccount = new RealBankAccount(_initialBalance);
+                _account = new RealBankAccount(_initialBalance);
             }
-            return _realAccount;
-        }
+            return _account;
+        }*/
 
         public void Deposit(decimal amount)
         {
-            GetRealAccount().Deposit(amount);
+            _account.Deposit(amount);
         }
 
         public void Withdraw(decimal amount)
         {
-            GetRealAccount().Withdraw(amount);
+            _account.Withdraw(amount);
         }
 
         public decimal GetBalance()
         {
-            return GetRealAccount().GetBalance();
+            return _account.GetBalance();
         }
     }
 }

@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            IBankAccount account = new BankAccountProxy(1000);
+            Console.WriteLine("Enter initial amount : ");
+            int amount = int.Parse(Console.ReadLine());
+            IBankAccount account = new BankAccountProxy(new RealBankAccount(amount));
 
             account.Deposit(100000);
             account.Withdraw(50000);

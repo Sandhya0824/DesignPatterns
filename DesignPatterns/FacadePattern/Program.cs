@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var onlineShopping = new OnlineShoppingFacade(new OrderService(),new PaymentService(),new InventoryService());
+            onlineShopping.CompleteOrder();
         }
     }
 }
